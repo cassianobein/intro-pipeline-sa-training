@@ -6,7 +6,7 @@ pipeline {
         echo 'Hello World!'
         echo 'Hello ${MY_NAME}!'
         echo "Hello ${MY_NAME}!"
-        sh 'go version'
+        sh 'java -version'
       }
     }
   }
